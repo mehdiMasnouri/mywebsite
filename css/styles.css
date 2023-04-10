@@ -54,3 +54,28 @@ li{
     display: flex;
     align-items: center;
 }
+
+/* Header */
+.header{
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.top-nav{
+    background-color: var(--green);
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.top-nav div{
+    justify-content: space-between;
+    height: 4.5rem;
+
+}
+
+
+.top-nav a{
+    padding: 0 0.5rem;
+    color: var(--white);
+}
